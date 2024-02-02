@@ -66,7 +66,7 @@ const Home = () => {
             className="text-4xl md:text-6xl font-bold font-Teko text-dark-gray uppercase"
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ once: true, amount: 0 }}
+            viewport={{ once: false, amount: 0 }}
           >
             Shien Ebike
           </motion.h2>
@@ -75,7 +75,7 @@ const Home = () => {
             className="text-dark-gray font-bold text-6xl xl:text-[120px] md:text-[80px] font-Playfair italic"
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ once: true, amount: 0 }}
+            viewport={{ once: false, amount: 0 }}
           >
             Electrify Your Ride
           </motion.h1>
@@ -92,7 +92,7 @@ const Home = () => {
               whileHover={{
                 scale: 1.1,
               }}
-              viewport={{ once: true, amount: 0 }}
+              viewport={{ once: false, amount: 0 }}
             >
               Get Bikes
             </motion.button>

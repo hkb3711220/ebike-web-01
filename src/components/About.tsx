@@ -17,7 +17,7 @@ const About = () => {
               variants={containerVariant}
               initial="hidden"
               whileInView="visible"
-              viewport={{ amount: 0, once: true }}
+              viewport={{ amount: 0, once: false }}
               className="flex w-full absolute left-5 lg:left-10 top-5 md:top-[17px] z-40 "
             >
               <motion.h1
@@ -38,7 +38,7 @@ const About = () => {
               variants={containerVariant}
               initial="hidden"
               whileInView="visible"
-              viewport={{ amount: 0, once: true }}
+              viewport={{ amount: 0, once: false }}
               className="absolute top-[55px] sm:top-20 lg:top-[95px] left-5 lg:left-10 
               text-3xl md:text-6xl lg:text-6xl 
               font-bold z-40 lg:text-black  text-white w-[95%]"
@@ -89,7 +89,7 @@ const About = () => {
             variants={containerVariant}
             initial="hidden"
             whileInView="visible"
-            viewport={{ amount: 0, once: true }}
+            viewport={{ amount: 0, once: false }}
             className="lg:absolute z-40 text-center font-Teko font-bold bottom-0 right-10 lg:border-t-0 border-t-2 border-black text-white"
           >
             {"SHIEN".split("").map((char, index) => (

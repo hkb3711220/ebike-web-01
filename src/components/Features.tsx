@@ -36,7 +36,7 @@ const Features = () => {
           variants={containerVariant}
           initial="hidden"
           whileInView="visible"
-          viewport={{ amount: 0, once: true }}
+          viewport={{ amount: 0, once: false }}
           className="float-right w-full"
         >
           <motion.p

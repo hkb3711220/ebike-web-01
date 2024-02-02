@@ -11,7 +11,7 @@ const FormatedCardImage = ({ children }: { children: React.ReactNode }) => {
       variants={containerVariant}
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0, once: true }}
+      viewport={{ amount: 0, once: false }}
     >
       {children}
     </motion.div>
@@ -26,7 +26,7 @@ const FormatedCardContent: React.FC<{ cardContent: CardContent }> = ({ cardConte
       variants={containerVariant}
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0, once: true }}
+      viewport={{ amount: 0, once: false }}
     >
       <motion.p
         variants={itemVariant}

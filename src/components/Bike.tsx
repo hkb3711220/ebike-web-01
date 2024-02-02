@@ -69,7 +69,7 @@ const Bike = () => {
             x: 0,
             transition: { duration: 1 },
           }}
-          viewport={{ amount: 0, once: true }}
+          viewport={{ amount: 0, once: false }}
         >
           <motion.div className="w-full md:w-[90%] flex flex-col justify-center items-center leading-10 relative">
             <p>
